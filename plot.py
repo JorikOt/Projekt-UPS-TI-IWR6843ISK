@@ -6,7 +6,7 @@ def main():
     try:
         print("Lese data.csv ein (nur Distanz)...")
         # Wir lesen nur die Spalte 'Distance_m'
-        # Falls deine Spalten anders heißen, passe 'usecols' an oder entferne es.
+    
         df = pd.read_csv('radar_log_2026-01-22_12-54-13.csv', sep=';', usecols=['Distance_m'])
 
         # Optional: Daten etwas glätten
