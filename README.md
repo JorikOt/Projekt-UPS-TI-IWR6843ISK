@@ -27,5 +27,8 @@ wird der XDS110 treiber gebraucht
     * **Werte:** Slope 70 MHz/us, 256 Samples.
     * **Leistung:** Max Reichweite ca. 12.8m, Auflösung ca. 5cm.
     * **Modus:** Nur Heatmap aktiviert (Punktwolke aus).
+
+  4. **`plot.py`
+     * Beisüiel Skrit um die Loggs von `staticObj.py` darzustellen
 ##
 ![Demo](https://cdn.7tv.app/emote/01F6MQ33FG000FFJ97ZB8MWV52/4x.gif) 
