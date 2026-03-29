@@ -1,7 +1,7 @@
 # TI IWR6843ISK Radar Tools
 
 Zur Visualisierung von Heatmap-Daten des TI IWR6843ISK Radarsensors `heatmap.py`  
-und der Versuch statische Objekte zu erkennen `test.py`
+und der Versuch statische Objekte zu erkennen `staticObj.py`
 
 ## Voraussetzungen
 
@@ -17,7 +17,7 @@ wird der XDS110 treiber gebraucht
     * Zeigt eine **Live-Heatmap** (Entfernung vs. Winkel) im Browser an.
     * Zugriff über: `<IP-ADRESSE>:5000`
 
-2.  **`test.py`**
+2.  **`staticObj.py`**
     * Liest Radar-Daten ohne GUI.
     * Zeigt erkannte (statische) Objekte und Distanzen direkt im Terminal (ASCII-Art).
 
