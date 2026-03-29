@@ -20,6 +20,7 @@ wird der XDS110 treiber gebraucht
 2.  **`staticObj.py`**
     * Liest Radar-Daten ohne GUI.
     * Zeigt erkannte (statische) Objekte und Distanzen direkt im Terminal (ASCII-Art).
+    * Loggt alle erfassten Objekte (mit Zeitstempel, Winkel, Distanz und Signalstärke) fortlaufend in einer CSV-Datei
 
 3.  **`profile.cfg` (Konfiguration)**
     * Steuert die Physik des Sensors.
